@@ -1,0 +1,4 @@
+services:
+  svigermor-api:
+    environment:
+      - GEMINI_API_KEY=your-api-key-here
