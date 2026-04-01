@@ -10,4 +10,13 @@
     <ProjectReference Include="..\SvigermorApi.Core\SvigermorApi.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="prompt.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup> 
+
 </Project>

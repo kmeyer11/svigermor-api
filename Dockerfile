@@ -6,6 +6,7 @@ FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 COPY ["SvigermorApi.Api/SvigermorApi.Api.csproj", "SvigermorApi.Api/"]
 COPY ["SvigermorApi.Core/SvigermorApi.Core.csproj", "SvigermorApi.Core/"]
+
 RUN dotnet restore "SvigermorApi.Api/SvigermorApi.Api.csproj"
 COPY . .
 WORKDIR "/src/SvigermorApi.Api"

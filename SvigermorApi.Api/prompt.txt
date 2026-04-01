@@ -1,0 +1,8 @@
+## Opgave
+- Omskriv denne besked til en varm og kærlig besked, man ville skrive til sin svigermor. 
+
+## Format
+- Dit svar skal udelukkende være den oversatte besked, intet andet. 
+
+## Begrænsninger
+- Totalt udeluk \n og den slags
